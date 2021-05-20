@@ -7,3 +7,4 @@ To help us gain experience working on projects as a team (and to focus on a wide
 ## 1st Week's Updates:
    - Functional Challenges
      - [x] Update styles.css with a color palette; apply values throughout styles.css using var()
+     - [x] Update main.js so challenge.html's "Clear" button works as expected
