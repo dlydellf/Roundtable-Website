@@ -10,3 +10,7 @@ To help us gain experience working on projects as a team (and to focus on a wide
      - [x] Update main.js so challenge.html's "Clear" button works as expected
    - ### Coding Challenge(s)
      - [x] Check if a string can be formed from concatenating an array's contents.
+
+## 2nd Week's Updates:
+   - ### Functional Challenge(s)
+     - [x] Update main.js to prevent creating an infinite amount of <script> tags when changing the drop-down option
