@@ -1,5 +1,6 @@
 /****** Layout Section ******/
 
+/* These variable names (--<variable name>) will be distributed throughout the file; any changes only need be done here */
 :root {
   --main-bg-color: #eeeff0;
   --text-color-dark: #3d4553;
@@ -97,11 +98,7 @@ body {
 #circle {
   width: 500px;
   height: 500px;
-  background: radial-gradient(
-    circle at 400px 400px,
-    var(--color-pop),
-    rgba(0, 0, 0, 0)
-  );
+  background: radial-gradient(circle at 400px 400px, var(--color-pop), rgba(0, 0, 0, 0));
   border-radius: 50%;
   box-shadow: 10px 10px 5px 3px rgba(0, 0, 0, 0.1);
   transform: scale(100%);
@@ -138,19 +135,19 @@ body {
   color: var(--text-color-dark);
 }
 
-.about-text{
+.about-text {
   color: var(--text-color-dark);
   height: 33%;
   line-height: 30px;
   padding: 10px 20px;
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .about-picture {
   width: 50%;
   height: 100%;
-  background-image: url('images/Forest.png');
+  background-image: url("images/Forest.png");
   background-size: cover;
   background-position-x: center;
   border-radius: 15px 0 0 15px;
@@ -241,11 +238,7 @@ body {
 @media screen and (max-width: 435px) {
   .main {
     padding: 0;
-    background: linear-gradient(
-      to bottom,
-      var(--main-bg-color) 0%,
-      var(--color-pop) 100%
-    );
+    background: linear-gradient(to bottom, var(--main-bg-color) 0%, var(--color-pop) 100%);
   }
 
   #circle {
