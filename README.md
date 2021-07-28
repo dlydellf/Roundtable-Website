@@ -16,3 +16,4 @@ To help us gain experience working on projects as a team (and to focus on a wide
      - [x] Update main.js to prevent creating an infinite amount of <script> tags when changing the drop-down option
    - ### Coding Challenge(s)
      - [ ] Update about.html with a selfie & autobiography
+         - see "HTML-CSS-GitHub-Familarity" repo
